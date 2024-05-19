@@ -6,7 +6,7 @@ const PageAnnexe = () => {
     <>
       <div>
         <Header></Header>
-        page Page Annexe
+        <div className="text-center">page ANNEXE</div>
       </div>
     </>
   );

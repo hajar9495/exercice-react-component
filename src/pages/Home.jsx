@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <div>
         <Header></Header>
-        page HOME
+        <div className="text-center">page HOME</div>
       </div>
     </>
   );
