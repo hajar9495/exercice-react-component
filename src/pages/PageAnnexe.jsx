@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import CarList from "../components/CarList";
+import Car from "../components/Car";
 
 const PageAnnexe = () => {
   return (
@@ -9,7 +9,7 @@ const PageAnnexe = () => {
         <Header></Header>
         <div className="text-center">
           <h1>page ANNEXE</h1>
-          <CarList></CarList>
+          <Car></Car>
         </div>
       </div>
     </>
