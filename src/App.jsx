@@ -1,12 +1,18 @@
-import { useState } from "react";
-// import "./App.css";
+import "./index.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import Home from "./pages/Home";
+import PageAnnexe from "./pages/PageAnnexe";
 
 function App() {
   return (
     <>
-      <div className="bg-red-500">
-        <h1>hello</h1>
-      </div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/pageAnnexe" element={<PageAnnexe />} />
+        </Routes>
+      </Router>
     </>
   );
 }
